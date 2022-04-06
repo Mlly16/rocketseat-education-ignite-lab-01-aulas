@@ -1,6 +1,5 @@
 import { getSession, } from "@auth0/nextjs-auth0";
 import { GetServerSideProps } from "next";
-import { redirect } from "next/dist/server/api-utils";
 
 export default function Home() {
   return null;
